@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -87,7 +88,7 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background-image: url('pic.jpg');
+  background-image: url('./component/pic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -132,9 +133,12 @@ body{
 {
   height: 5rem;
   width: 10rem;
-  background-image: url('971.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  max-width: 100%;
+  object-fit: cover;
+  @media (max-width: 768px) {
+    height: 3rem;
+    width: 6rem;
+  }
   
 }
 .Contact{
@@ -144,4 +148,80 @@ body{
   top: 45rem;
   left: 3rem;
    
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+}
+.skill{
+  position: relative;
+  top: 35rem;
+ 
+  height: 5rem;
+  width: 100%;
+  margin: 5%;
+  color: white;
+    display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+}
+.logo{
+  height: 4rem;
+  width: 4rem;
+  margin-right: 6rem;
+
+}
+
+.skill ul li {
+  display: inline-block;
+
+  font-size: 1.2rem;
+}
+.project{
+  position: relative;
+  top: 45rem;
+  height: 5rem;
+  width: 100%;
+  margin: 5%;
+  color: white;
+    display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.contact{
+  position: relative;
+  top: 55rem;
+  height: 5rem;
+  width: 100%;
+  margin: 5%;
+  color: white;
+    display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.foot{
+  position: relative;
+  top: 60rem;
+  height: 5rem;
+  width: 100%;
+
+  padding: 2rem ;
+  color: white;
+    display: flex;
+  justify-content: center;
+ background-color: #282c34;
+  flex-direction: column;
 }
