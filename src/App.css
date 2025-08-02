@@ -225,6 +225,6 @@ body{
  background-color: #282c34;
   flex-direction: column;
 }
-.html-logo{
-  
+.color{
+  color: rgb(236, 26, 145);
 }
