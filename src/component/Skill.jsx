@@ -4,7 +4,7 @@ export default function Skill() {
 return (
     <>
         <div className="skill">
-            <h1>Skills</h1>
+            <h1 className='color'>Skills</h1>
             <ul>
                 <li>
                     <div className="HTMl">

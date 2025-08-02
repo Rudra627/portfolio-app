@@ -4,7 +4,7 @@ export default function Contact() {
   return (
   <>
     <div className="contact">
-      <h1>Contact Me</h1>
+      <h1 className='color'>Contact Me</h1>
       <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
       <ul>
         <li>Email: rudrasahu9007@gmail.com</li>
